@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mui-test/static/css/main.9c89e89f.css",
+    "main.js": "/mui-test/static/js/main.15922d34.js",
+    "static/js/453.9aaefb33.chunk.js": "/mui-test/static/js/453.9aaefb33.chunk.js",
+    "index.html": "/mui-test/index.html",
+    "main.9c89e89f.css.map": "/mui-test/static/css/main.9c89e89f.css.map",
+    "main.15922d34.js.map": "/mui-test/static/js/main.15922d34.js.map",
+    "453.9aaefb33.chunk.js.map": "/mui-test/static/js/453.9aaefb33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c89e89f.css",
+    "static/js/main.15922d34.js"
+  ]
+}
