@@ -1,4 +1,3 @@
-// src/components/FilterableSortableTable.js
 import React from 'react';
 import { DataGridPro, GridToolbar } from '@mui/x-data-grid-pro';
 import { Paper } from '@mui/material';
@@ -6,7 +5,7 @@ import { vehicles, columns } from '../data'; // Adjust the import path as necess
 
 const FilterableSortableTable = () => {
   return (
-    <Paper style={{ backgroundColor: '#191919', padding: '16px' }}>
+    <Paper style={{ padding: '16px' }}>
       <div style={{ width: '100%' }}>
         <DataGridPro
           rows={vehicles}
@@ -19,14 +18,9 @@ const FilterableSortableTable = () => {
           disableSelectionOnClick
           components={{ Toolbar: GridToolbar }}
           sortingOrder={['asc', 'desc']}
-          slots={{ toolbar: GridToolbar }} 
+          slots={{ toolbar: GridToolbar }}
           pagination
           checkboxSelection={false}
-          sx={{
-            '& .MuiDataGrid-toolbarContainer .MuiButton-root': {
-              color: '#D4D4D4',
-            },
-          }}
         />
       </div>
     </Paper>

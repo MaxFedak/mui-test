@@ -5,6 +5,7 @@ import App from './App';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
+import './index.css'; // Ensure this import is here to include the Inter font CSS
 
 ReactDOM.render(
   <React.StrictMode>
